@@ -1,9 +1,10 @@
 
-
-
+import Home from "./pages/Home"
+import './styles/main.css'
 
 export default function App() {
   return <>
+    <Home />
     <div>Oujda city</div>
     </>
 }
