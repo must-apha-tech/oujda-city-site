@@ -1,28 +1,35 @@
-import React from 'react';
-export default function Navbar() {
-    function ul(index) {
-	console.log('click!' + index)
-	
-	const underlines = document.querySelectorAll(".underline");
+import { useRef } from "react";
+import logo from "../assets/logo/Logo pjt.png";
 
-	for (var i = 0; i < underlines.length; i++) {
-		underlines[i].style.transform = 'translate3d(' + index * 100 + '%,0,0)';
-	}
-};
-    return (
-        <>
-    <nav class="black">
-                <div class="underline"></div>
-                <div class="underline"></div>
-                <div class="underline"></div>
-                <a href="#hero" onClick={() => ul(0)}>Hero</a>
-                <a href='#Weather' onClick={() => ul(1)}>weather</a>
-                <a href='#about' onClick={() => ul(2)}>About</a>
-                <a href='#places' onClick={() => ul(3)}>Places</a>
-                <a href='#culture' onClick={() => ul(4)}>Culture</a>
-                <a href='#contact' onClick={() => ul(5)}>Contact</a>
-            </nav>
-        
-        </>
-    );
+export default function Navbar() {
+  const underlineRef = useRef(null);
+
+  function moveUnderline(e) {
+    const link = e.target;
+    const underline = underlineRef.current;
+
+    underline.style.width = link.offsetWidth + "px";
+    underline.style.transform = `translateX(${link.offsetLeft}px)`;
+  }
+
+  return (
+    <nav className="black">
+      <div className="logo">
+        <a href="#hero">
+          <img src={logo} alt="logo oujda" />
+        </a>
+      </div>
+
+      <div className="menu">
+        <span ref={underlineRef} className="underline"></span>
+
+        <a href="#hero" onClick={moveUnderline}>Hero</a>
+        <a href="#about" onClick={moveUnderline}>About</a>
+        <a href="#weather" onClick={moveUnderline}>Weather</a>
+        <a href="#places" onClick={moveUnderline}>Places</a>
+        <a href="#culture" onClick={moveUnderline}>Culture</a>
+        <a href="#contact" onClick={moveUnderline}>Contact</a>
+      </div>
+    </nav>
+  );
 }
