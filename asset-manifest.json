@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oujda-city-site/static/css/main.d61cd295.css",
+    "main.js": "/oujda-city-site/static/js/main.dfb537d4.js",
+    "static/media/oujda pic.jpg": "/oujda-city-site/static/media/oujda pic.a6a08d996a806dd108aa.jpg",
+    "static/media/Logo pjt.png": "/oujda-city-site/static/media/Logo pjt.b2d6b5fe391a1d5f2764.png",
+    "index.html": "/oujda-city-site/index.html",
+    "main.d61cd295.css.map": "/oujda-city-site/static/css/main.d61cd295.css.map",
+    "main.dfb537d4.js.map": "/oujda-city-site/static/js/main.dfb537d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d61cd295.css",
+    "static/js/main.dfb537d4.js"
+  ]
+}
