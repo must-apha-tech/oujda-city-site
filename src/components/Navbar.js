@@ -1,9 +1,9 @@
-import { useRef } from "react";
+import { useRef, useEffect, useState, use } from "react";
 import logo from "../assets/logo/Logo pjt.png";
 
 export default function Navbar() {
   const underlineRef = useRef(null);
-
+    const [activeSection, setActiveSection] = useState(null);
   function moveUnderline(e) {
     const link = e.target;
     const underline = underlineRef.current;
@@ -11,6 +11,7 @@ export default function Navbar() {
     underline.style.width = link.offsetWidth + "px";
     underline.style.transform = `translateX(${link.offsetLeft}px)`;
   }
+  
 
   return (
     <nav className="black">
