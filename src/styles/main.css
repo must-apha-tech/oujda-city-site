@@ -20,7 +20,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: #c99d66;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +31,7 @@ nav {
 
 
 nav.black .underline {
-  background: #7a5c45;
+  background: #020100;
   border-radius: 100% 100% 0 0;
   height: calc(var(--underline-height) / 2);
 }
@@ -54,7 +54,7 @@ nav.black .underline {
 }
 .menu a {
   text-decoration: none;
-  color: #7a5c45;
+  color: #ffffff;
   padding: 8px 0;
 }
 

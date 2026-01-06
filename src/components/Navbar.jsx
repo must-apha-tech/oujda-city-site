@@ -1,14 +1,14 @@
 import { useRef, useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo/Logo pjt.png";
+import logo from "../assets/logo/logo W.svg";
 
 export default function Navbar() {
   const underlineRef = useRef(null);
-  const menuRef = useRef(null); // reference to menu container
+  const menuRef = useRef(null);
   const location = useLocation();
   const [open, setOpen] = useState(false);
 
-  // underline logic (same as before)
+
   useEffect(() => {
     const links = document.querySelectorAll(".menu a");
     const underline = underlineRef.current;
@@ -26,7 +26,7 @@ export default function Navbar() {
     }
   }, [location]);
 
-  // close menu when clicking outside
+  // kifach ytsad menu fach click outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -48,12 +48,12 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Mobile menu button */}
+
       <button className="menu-btn" onClick={() => setOpen(!open)}>
         ☰
       </button>
 
-      {/* Menu links */}
+      
       <div ref={menuRef} className={`menu ${open ? "open" : ""}`}>
         <span ref={underlineRef} className="underline"></span>
         <Link to="/" onClick={() => setOpen(false)}>Home</Link>
