@@ -1,0 +1,44 @@
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+.menu {
+  display: nonez;
+}
+  .menu.open {
+    display: flex;
+  }
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+.menu {
+    flex-direction: column;
+    position: absolute;
+    top: 70px; 
+    right: 16px;
+    width: 200px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
+    z-index: 1000;
+  }
+
+
+
+.menu a {
+    padding: 12px 16px;
+    text-align: left;
+  }
+  .logo img {
+    height: 45px;
+  }
+  .underline {
+    display: none;
+  }
+}
