@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oujda-city-site/static/css/main.f96c5eab.css",
-    "main.js": "/oujda-city-site/static/js/main.8e5e161a.js",
+    "main.css": "/oujda-city-site/static/css/main.9185bfb1.css",
+    "main.js": "/oujda-city-site/static/js/main.74a8f2a2.js",
     "static/media/oujda pic.jpg": "/oujda-city-site/static/media/oujda pic.a6a08d996a806dd108aa.jpg",
-    "static/media/Logo pjt.png": "/oujda-city-site/static/media/Logo pjt.b2d6b5fe391a1d5f2764.png",
+    "static/media/logo W.svg": "/oujda-city-site/static/media/logo W.b3aa676a1e91d65b5be5f38b1e4a93d0.svg",
     "index.html": "/oujda-city-site/index.html",
-    "main.f96c5eab.css.map": "/oujda-city-site/static/css/main.f96c5eab.css.map",
-    "main.8e5e161a.js.map": "/oujda-city-site/static/js/main.8e5e161a.js.map"
+    "main.9185bfb1.css.map": "/oujda-city-site/static/css/main.9185bfb1.css.map",
+    "main.74a8f2a2.js.map": "/oujda-city-site/static/js/main.74a8f2a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f96c5eab.css",
-    "static/js/main.8e5e161a.js"
+    "static/css/main.9185bfb1.css",
+    "static/js/main.74a8f2a2.js"
   ]
 }
