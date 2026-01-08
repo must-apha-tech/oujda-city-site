@@ -53,6 +53,7 @@ const data = [
 
 export default function History() {
   return (
+    <section className="history-bg">
     <section className="history">
       {data.map((item, index) => (
         <div
@@ -70,5 +71,6 @@ export default function History() {
         </div>
       ))}
     </section>
+  </section>
   );
 }
