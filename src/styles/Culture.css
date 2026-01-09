@@ -1,0 +1,430 @@
+/* CSS complet sans cards ni bordures */
+:root{
+--bg-main:#643a03e1, ;
+--primary:#1a1a1a;
+--accent:#8b3d13;
+--secondary:#2E8B57;
+--muted:#666666;
+--gold:#b8aea2;
+--bg-pattern:url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23e0e0e0' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.culture-center-container{
+min-height:100vh;
+font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+color:var(--primary);
+line-height:1.6;
+letter-spacing:0.3px;
+background-color:var(--bg-main);
+background-image:var(--bg-pattern);
+background-size:300px 300px;
+position:relative;
+}
+.culture-center-container::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:linear-gradient(135deg,rgba(192,126,12,0.1) 0%,rgba(188,112,18,0.05) 100%);
+z-index:1;
+}
+.culture-center-container>*{
+position:relative;
+z-index:2;
+}
+.culture-header{
+min-height:70vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../assets/images/babsidi.jpg") center/cover no-repeat;
+color:#fff;
+position:relative;
+}
+.culture-header::before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+right:0;
+height:4px;
+background:linear-gradient(90deg,var(--accent),var(--secondary),var(--gold));
+}
+.main-title{
+font-size:3.5rem;
+font-weight:700;
+letter-spacing:-0.5px;
+margin-bottom:0.5rem;
+font-family:"Playfair Display",serif;
+text-shadow:0 2px 4px rgb(247, 242, 242);
+}
+.header-subtitle{
+font-size:1.1rem;
+font-weight:300;
+color:rgba(255,255,255,0.9);
+max-width:600px;
+margin:0 auto;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+.header-divider{
+width:80px;
+height:2px;
+background:var(--gold);
+margin:1.5rem auto 0;
+opacity:0.8;
+}
+.culture-section{
+padding:5rem 0;
+position:relative;
+}
+.section-wrapper{
+max-width:1200px;
+margin:0 auto;
+padding:0 2rem;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:4rem;
+align-items:start;
+}
+.section-wrapper.reverse{
+direction:rtl;
+}
+.section-wrapper.reverse>*{
+direction:ltr;
+}
+.content-left{
+padding:0;
+}
+.image-right{
+position:relative;
+}
+.image-container{
+width:100%;
+overflow:hidden;
+border-radius:12px;
+position:relative;
+}
+.food-section .image-container{
+height:500px;
+background:#f8f8f8 url("") center/cover no-repeat;
+}
+.clothing-section .image-container{
+height:500px;
+background:#f8f8f8 url("../assets/images/cls.jpeg") center/cover no-repeat;
+}
+.music-section .image-container{
+height:800px;
+background:#f8f8f8 url('../assets/images/reggada2.jpeg') center/cover no-repeat;
+}*
+.tbourida-section .image-container{
+height:500px;
+background:#f8f8f8 url("../assets/images/tbourida.jpeg") center/cover no-repeat;
+}
+.food-section .image-container .main-image,
+.clothing-section .image-container .main-image,
+.music-section .image-container .main-image,
+.tbourida-section .image-container .main-image{
+display:none;
+}
+.image-overlay{
+position:absolute;
+bottom:0;
+left:0;
+right:0;
+background:linear-gradient(transparent,rgba(0,0,0,0.4));
+padding:1.5rem;
+color:white;
+}
+.overlay-text h4{
+font-size:1.1rem;
+font-weight:600;
+margin-bottom:0.25rem;
+}
+.overlay-text p{
+font-size:0.8rem;
+opacity:0.9;
+}
+.image-description{
+margin-top:0.75rem;
+font-size:0.8rem;
+color:var(--muted);
+text-align:center;
+font-style:italic;
+padding:0 1rem;
+}
+.section-header{
+margin-bottom:2rem;
+position:relative;
+}
+.section-number{
+font-size:0.85rem;
+font-weight:600;
+color:var(--accent);
+letter-spacing:3px;
+text-transform:uppercase;
+display:inline-block;
+margin-bottom:0.5rem;
+position:relative;
+}
+.section-number::after{
+content:'';
+position:absolute;
+bottom:-8px;
+left:0;
+width:40px;
+height:2px;
+background:var(--accent);
+}
+.section-title{
+font-size:2.25rem;
+font-weight:700;
+margin:0.5rem 0;
+color:var(--primary);
+font-family:"Playfair Display",serif;
+line-height:1.2;
+}
+.section-subtitle{
+font-size:1rem;
+color:var(--muted);
+font-weight:400;
+font-style:italic;
+margin-top:0.5rem;
+}
+.content-details{
+margin-top:1.5rem;
+}
+.content-details p{
+font-size:1rem;
+line-height:1.7;
+color:var(--muted);
+margin-bottom:1.2rem;
+}
+.category-item{
+margin-bottom:2rem;
+padding-bottom:2rem;
+}
+.category-item:last-child{
+margin-bottom:0;
+padding-bottom:0;
+}
+.category-item h3{
+font-size:1.25rem;
+font-weight:600;
+color:var(--primary);
+margin-bottom:0.75rem;
+}
+.cultural-note,.feature-box,.definition-box,.significance-box,.highlight-card,.cultural-info{
+margin:2rem 0;
+padding:0;
+}
+.cultural-note h4,.feature-box h4,.definition-box h3,.significance-box h4,.highlight-card h3,.cultural-info h4{
+color:var(--primary);
+font-size:1.1rem;
+font-weight:600;
+margin-bottom:0.75rem;
+}
+.category-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:1.5rem;
+margin:2rem 0;
+}
+.grid-item{
+padding:0;
+}
+.grid-item:hover{
+transform:none;
+}
+.item-icon{
+font-size:1.5rem;
+margin-bottom:0.75rem;
+color:var(--accent);
+}
+.grid-item h3{
+font-size:1rem;
+font-weight:600;
+color:var(--primary);
+margin-bottom:0.5rem;
+}
+.grid-item p{
+font-size:0.875rem;
+color:var(--muted);
+line-height:1.5;
+}
+.instrument-list{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:1rem;
+margin:1.5rem 0;
+}
+.instrument-item{
+padding:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.instrument-name{
+font-weight:600;
+color:var(--primary);
+}
+.instrument-desc{
+font-size:0.875rem;
+color:var(--muted);
+font-style:italic;
+}
+.ritual-steps{
+margin:2rem 0;
+}
+.ritual-steps h4{
+color:var(--primary);
+font-size:1.1rem;
+font-weight:600;
+margin-bottom:1rem;
+}
+.ritual-steps ol{
+list-style:none;
+padding-left:0;
+counter-reset:step-counter;
+}
+.ritual-steps li{
+counter-increment:step-counter;
+padding:0.5rem 0;
+padding-left:2rem;
+position:relative;
+}
+.ritual-steps li::before{
+content:counter(step-counter);
+position:absolute;
+left:0;
+top:50%;
+transform:translateY(-50%);
+background:var(--accent);
+color:white;
+width:1.5rem;
+height:1.5rem;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:0.75rem;
+font-weight:600;
+}
+.genre-tags,.event-tags{
+display:flex;
+flex-wrap:wrap;
+gap:0.75rem;
+margin-top:1rem;
+}
+.genre-tag,.event-tag{
+padding:0.5rem 1rem;
+background:transparent;
+border:none;
+font-size:0.875rem;
+color:var(--muted);
+}
+.genre-tag:hover,.event-tag:hover{
+color:var(--accent);
+}
+@media(max-width:1024px){
+.section-wrapper{
+gap:3rem;
+}
+.main-title{
+font-size:2.75rem;
+}
+.food-section .image-container,.clothing-section .image-container,.music-section .image-container,.tbourida-section .image-container{
+height:600px;
+}
+}
+@media(max-width:768px){
+.section-wrapper{
+grid-template-columns:1fr;
+gap:2rem;
+padding:0 1.5rem;
+}
+.culture-header{
+min-height:60vh;
+padding:40px 20px;
+}
+.main-title{
+font-size:2.25rem;
+}
+.section-title{
+font-size:1.75rem;
+}
+.content-left{
+padding:0;
+}
+.category-grid{
+grid-template-columns:1fr;
+}
+.instrument-list{
+grid-template-columns:1fr;
+}
+.food-section .image-container,.clothing-section .image-container,.music-section .image-container,.tbourida-section .image-container{
+height:400px;
+}
+.image-right{
+order:-1;
+}
+}
+@media(max-width:480px){
+.culture-section{
+padding:3rem 0;
+}
+.main-title{
+font-size:2rem;
+}
+.header-subtitle{
+font-size:0.875rem;
+}
+.section-wrapper{
+padding:0 1rem;
+}
+.content-left{
+padding:0;
+}
+.section-title{
+font-size:1.5rem;
+}
+.food-section .image-container,.clothing-section .image-container,.music-section .image-container,.tbourida-section .image-container{
+height:300px;
+}
+}
+@keyframes fadeInUp{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+.culture-section{
+animation:fadeInUp 0.6s ease-out forwards;
+}
+@media(prefers-reduced-motion:no-preference){
+.culture-section{
+scroll-margin-top:2rem;
+}
+}
+img{
+    border-radius: 10px;
+}
+.images-description{
+    margin-top: 35px;
+    width: 600px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 12px; 
+}
+.images-description:hover{
+    translate: 0px -8px;
+    transition: .3s all;
+    
+}
