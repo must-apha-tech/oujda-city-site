@@ -91,7 +91,26 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 120px 0;
+  padding: 198px 0 198px 198px;
+  position: relative;
+}
+.history-bg p {
+  color: white;
+  padding: auto;
+}
+.history-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  }
+
+ .history-bg > * {
+  position: relative;
+  z-index: 2; 
+  color: white;
+  padding-left: 0px;
 }
 
 @media (max-width: 768px) {
@@ -133,5 +152,16 @@
 @media (max-width: 1024px) {
   .history-item {
     width: 80%;
+  }
+}
+@media (hover: none) and (pointer: coarse) {
+  .history-item:hover .image-box,
+  .history-item:hover .text-box,
+  .history-item.right:hover .image-box,
+  .history-item.right:hover .text-box,
+  .history-item.left:hover .image-box,
+  .history-item.left:hover .text-box {
+    transform: none;
+    opacity: 1;
   }
 }
