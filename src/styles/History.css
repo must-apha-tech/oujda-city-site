@@ -91,12 +91,16 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 198px 0 198px 198px;
+  padding: 50px 100px 50px 100px;
+  margin-top: 40px;
+  height: 600px;
+  font-family: "Segoe UI", Arial, sans-serif;
   position: relative;
 }
 .history-bg p {
   color: white;
   padding: auto;
+  font-family: "Georgia", serif;
 }
 .history-bg::before {
   content: "";

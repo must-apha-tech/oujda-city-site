@@ -110,7 +110,7 @@ position:relative;
 }
 .food-section .image-container{
 height:500px;
-background:#f8f8f8 url("") center/cover no-repeat;
+background:#f8f8f8  center/cover no-repeat;
 }
 .clothing-section .image-container{
 height:500px;
