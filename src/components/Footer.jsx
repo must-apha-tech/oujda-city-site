@@ -21,16 +21,7 @@ export default function Footer() {
     Project work for a group competition with other classe.
   </p>
   <p>
-    Supervised by English teacher Sara and Mr. Khloufi.
-  </p>
-  <p>
-    Team members:
-  </p>
-  <p>
-    • Member 1<br />
-    • Member 2<br />
-    • Member 3<br />
-    • Member 4
+    Supervised by English teacher Ms Hassaine Hajar and Mr. Khloufi Abdelkrim.
   </p>
 </div>
 
