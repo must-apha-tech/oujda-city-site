@@ -298,8 +298,8 @@ return (
 
           borderRadius: "25px",
 
-         width: "900px",
-          height: "600px",
+         width: "460px",
+          height: "360px",
 
         }}>
 
@@ -329,8 +329,9 @@ return (
 
               borderRadius: "10px",
 
-              margin: "10px",
 
+              width: "460px",
+             height: "360px",
             }}>
 
               <p>
@@ -365,8 +366,8 @@ return (
 
           borderRadius: "25px",
 
-          width: "900px",
-          height: "600px",
+           width: "460px",
+          height: "360px",
         }}>
 
           <span className="smia-korta"><h1> Winter in Oujda❄️</h1></span>
@@ -395,8 +396,9 @@ return (
 
               borderRadius: "10px",
 
-              margin: "10px",
 
+              width: "460px",
+          height: "360px",
             }}>
 
               <p>
@@ -429,8 +431,8 @@ return (
 
           borderRadius: "25px",
 
-         width: "900px",
-          height: "600px",
+          width: "460px",
+          height: "360px",
 
         }}>
 
@@ -460,7 +462,9 @@ return (
 
               borderRadius: "10px",
 
-              margin: "10px",
+             
+              width: "460px",
+          height: "360px",
 
             }}>
 
@@ -499,8 +503,8 @@ return (
 
           borderRadius: "25px",
 
-         width: "900px",
-          height: "600px",
+         width: "460px",
+          height: "360px",
 
         }}>
 
@@ -530,7 +534,9 @@ return (
 
               borderRadius: "10px",
 
-              margin: "10px"
+             
+              width: "460px",
+          height: "360px",
 
             }}>
 

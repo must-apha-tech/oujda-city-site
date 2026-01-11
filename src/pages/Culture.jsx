@@ -188,7 +188,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
             <div className="content-details">
               <div className="category-grid">
                 <div className="grid-item">
-                  <div className="item-icon">👗</div>
                   <div className="item-content">
                     <h3>Oujdi Caftan</h3>
                     <p>
@@ -199,7 +198,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
                 </div>
 
                 <div className="grid-item">
-                  <div className="item-icon">🧥</div>
                   <div className="item-content">
                     <h3 >Jellaba</h3>
                     <p>
@@ -210,7 +208,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
                 </div>
 
                 <div className="grid-item">
-                  <div className="item-icon">👑</div>
                   <div className="item-content">
                     <h3>el blouza</h3>
                     <p>
@@ -221,7 +218,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
                 </div>
 
                 <div className="grid-item">
-                  <div className="item-icon">🕌</div>
                   <div className="item-content">
                     <h3>Burnous</h3>
                     <p>

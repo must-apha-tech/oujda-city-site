@@ -6,7 +6,6 @@
 }
 
 .hero {
-    min-height: 100vh;
     background: linear-gradient(
         -90deg,
         #FFF8E7 0%,
@@ -15,7 +14,6 @@
         #D2B48C 75%,
         #C19A6B 100%
     );
-    position: relative;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -25,8 +23,7 @@
 .content {
     color: #333;
     width: 100%;
-    height: 650px;
-    padding: 50px;
+    height: 400px;
     text-align: center;
     margin-bottom: 200px;
     /* background: rgba(165, 47, 47, 0.9); */
@@ -46,7 +43,7 @@
 }
 
 .content h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 35px;
     color: white;
     line-height: 1.2;
@@ -77,7 +74,6 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
     min-width: 350px;
     letter-spacing: 1px;
 }
@@ -114,8 +110,8 @@
 /* تصميم الكروت */
 .karta {
     
-    width: 900px;
-    height: 600px;
+    width: 460px;
+    height: 360px;
     border-radius: 35px;
     overflow: hidden;
     position: relative;
@@ -127,31 +123,17 @@
     margin: auto;
 }
 
-.karta-sghira {
-    top: 0;
-    left: 0;
-    width: 800px;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    /* background: linear-gradient(to bottom, 
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.8)); */
-       
-}
+
 
 .smia-korta h1 {
     color: white;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 30px;
     text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.9);
     text-align: center;
 font-style: italic; 
    letter-spacing: 2px;
-   margin-right: 90px;
+   margin-bottom: 90px;
     
 }
 
@@ -162,7 +144,7 @@ font-style: italic;
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 50px;
+    
     opacity: 0;
     visibility: hidden;
     transform: scale(0.95);
@@ -174,40 +156,33 @@ font-style: italic;
     backdrop-filter: blur(15px);
 }
 
-.content-kbira {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    height: 100%;
-    padding: 20px;
-}
 
 
 
 .twopgs{
     display: flex;
-    gap: 100px;
+    gap: 10px;
     
 }
 .tasuura-kbira {
     background-color: rgba(255, 255, 255, 0.95);
-    padding: 40px;
+    
     border-radius: 25px;
     flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .tasuura-kbira p {
     color: #333;
-    font-size: 24px;
-    line-height: 1.8;
+    font-size: 15px;
     text-align: center;
-    font-weight: bold;
     letter-spacing: 0.5px;
+    font-weight: bold;
+    
 }
 
 .kteb-kbira {
@@ -474,3 +449,231 @@ font-style: italic;
           margin: 10px 0;
 
         }
+@media (max-width: 1024px) {
+  .krotat-ltah {
+    max-width: 100%;
+    padding: 30px 15px;
+    gap: 120px;
+  }
+  
+  .karta-page {
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 80px;
+    min-height: auto;
+  }
+  
+  .karta {
+    width: 85%;
+    max-width: 500px;
+    height: 320px;
+  }
+  
+  .content h1 {
+    font-size: 42px;
+  }
+  
+  .desc {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  
+  .btn {
+    padding: 22px 50px;
+    font-size: 22px;
+    min-width: 320px;
+  }
+  
+  .page-navigation {
+    max-width: 90%;
+    padding: 25px;
+  }
+  
+  .twopgs {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px 10px;
+  }
+  
+  .content {
+    height: auto;
+    padding: 40px 20px;
+    margin-bottom: 120px;
+  }
+  
+  .small-text {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .content h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  
+  .desc {
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+  
+  .btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    min-width: 280px;
+  }
+  
+  .krotat-ltah {
+    gap: 80px;
+    padding: 20px 10px;
+  }
+  
+  .karta-page {
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  .karta {
+    width: 95%;
+    height: 280px;
+    margin: 0 auto;
+  }
+  
+  .smia-korta h1 {
+    font-size: 26px;
+    margin-bottom: 70px;
+  }
+  
+  .kteb-kbira h1 {
+    font-size: 32px;
+  }
+  
+  .tasuura-kbira p {
+    font-size: 14px;
+  }
+  
+  .twopgs {
+    gap: 30px;
+  }
+  
+  .page-navigation {
+    flex-direction: column;
+    gap: 25px;
+    max-width: 95%;
+    padding: 20px;
+  }
+  
+  .page-btn {
+    width: 100%;
+    padding: 16px 30px;
+    font-size: 20px;
+  }
+  
+  .page-indicator {
+    padding: 0;
+    min-width: auto;
+    font-size: 24px;
+  }
+  
+  /* Weather page adjustments */
+  .weather-page {
+    height: auto;
+    padding: 30px 20px;
+    background-attachment: scroll;
+  }
+  
+  .title {
+    font-size: 32px;
+  }
+  
+  .today h2 {
+    font-size: 50px;
+  }
+  
+  .week {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 15px;
+  }
+  
+  .day-card {
+    height: 200px;
+    font-size: 24px;
+  }
+}
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+  .content h1 {
+    font-size: 28px;
+  }
+  
+  .small-text {
+    font-size: 16px;
+  }
+  
+  .desc {
+    font-size: 16px;
+  }
+  
+  .btn {
+    padding: 18px 35px;
+    font-size: 18px;
+    min-width: 250px;
+  }
+  
+  .karta {
+    height: 250px;
+    border-radius: 25px;
+  }
+  
+  .smia-korta h1 {
+    font-size: 22px;
+    margin-bottom: 60px;
+  }
+  
+  .kteb-kbira h1 {
+    font-size: 26px;
+  }
+  
+  .week {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .day-card {
+    height: 180px;
+    font-size: 20px;
+    padding: 15px;
+  }
+  
+  .today h2 {
+    font-size: 42px;
+  }
+  
+  .today-icon {
+    font-size: 80px;
+  }
+}
+
+/* For very small screens */
+@media (max-width: 360px) {
+  .karta {
+    height: 220px;
+  }
+  
+  .btn {
+    min-width: 220px;
+    padding: 16px 30px;
+  }
+  
+  .page-btn {
+    font-size: 18px;
+    padding: 14px 25px;
+  }
+}
