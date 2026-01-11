@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oujda-city-site/static/css/main.6527ba25.css",
-    "main.js": "/oujda-city-site/static/js/main.c2cf8849.js",
+    "main.css": "/oujda-city-site/static/css/main.0a843616.css",
+    "main.js": "/oujda-city-site/static/js/main.6f2c5f53.js",
     "static/media/Himage5.jpg": "/oujda-city-site/static/media/Himage5.42041b738b1acf1ba440.jpg",
     "static/media/rain.jpg": "/oujda-city-site/static/media/rain.666208eaaacf9ea2cdcd.jpg",
     "static/media/rbe.jpg": "/oujda-city-site/static/media/rbe.27a1dec0391f6dc2e671.jpg",
@@ -9,7 +9,6 @@
     "static/media/back.jpg": "/oujda-city-site/static/media/back.0d9683fb6b4d740f7c9a.jpg",
     "static/media/Himage2.jpg": "/oujda-city-site/static/media/Himage2.441e9089fcc0eb8a87b2.jpg",
     "static/media/Himage1.jpg": "/oujda-city-site/static/media/Himage1.a3578c2b82294cf7a9d5.jpg",
-    "static/media/tbourida.jpeg": "/oujda-city-site/static/media/tbourida.48689431606aa95065df.jpeg",
     "static/media/Himage4.jpg": "/oujda-city-site/static/media/Himage4.d1f931c6e15cab26fe23.jpg",
     "static/media/cls.jpeg": "/oujda-city-site/static/media/cls.eca3ec4aedd309e6b05a.jpeg",
     "static/media/Himage6.jpg": "/oujda-city-site/static/media/Himage6.92de7729b4e843378cfa.jpg",
@@ -17,6 +16,7 @@
     "static/media/karan.jpeg": "/oujda-city-site/static/media/karan.4ac7cfe3635a8da767b3.jpeg",
     "static/media/reggada2.jpeg": "/oujda-city-site/static/media/reggada2.774469763a55cbdedbe8.jpeg",
     "static/media/oujda pic.jpg": "/oujda-city-site/static/media/oujda pic.a6a08d996a806dd108aa.jpg",
+    "static/media/tbourida.jpeg": "/oujda-city-site/static/media/tbourida.abf66750099039e05cf1.jpeg",
     "static/media/babouch.jpeg": "/oujda-city-site/static/media/babouch.e2070f2fbdd14c3f449a.jpeg",
     "static/media/Himage7.jpg": "/oujda-city-site/static/media/Himage7.9304d499338321877a5d.jpg",
     "static/media/bacg.jpg": "/oujda-city-site/static/media/bacg.a499fa7d1c802b84cb52.jpg",
@@ -25,13 +25,13 @@
     "static/media/Himage3.jpg": "/oujda-city-site/static/media/Himage3.3739450dde91851ae6c9.jpg",
     "static/media/babsidi.jpg": "/oujda-city-site/static/media/babsidi.3306565ee09b43961b21.jpg",
     "static/media/APII.jpg": "/oujda-city-site/static/media/APII.f8caf190a3b1dfd1de4d.jpg",
-    "static/media/logo W.svg": "/oujda-city-site/static/media/logo W.b3aa676a1e91d65b5be5f38b1e4a93d0.svg",
+    "static/media/logo W.svg": "/oujda-city-site/static/media/logo W.15dd44aaaae9baedeba0d3d9e8fb54fb.svg",
     "index.html": "/oujda-city-site/index.html",
-    "main.6527ba25.css.map": "/oujda-city-site/static/css/main.6527ba25.css.map",
-    "main.c2cf8849.js.map": "/oujda-city-site/static/js/main.c2cf8849.js.map"
+    "main.0a843616.css.map": "/oujda-city-site/static/css/main.0a843616.css.map",
+    "main.6f2c5f53.js.map": "/oujda-city-site/static/js/main.6f2c5f53.js.map"
   },
   "entrypoints": [
-    "static/css/main.6527ba25.css",
-    "static/js/main.c2cf8849.js"
+    "static/css/main.0a843616.css",
+    "static/js/main.6f2c5f53.js"
   ]
 }
