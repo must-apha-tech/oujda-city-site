@@ -1,6 +1,3 @@
-import React from "react";
-import "../styles/Culture.css";
-
 import reggadaImage from "../assets/images/reggada2.jpeg"
 import babouch from "../assets/images/babouch.jpeg";
 import berkoukch from "../assets/images/berkoukch.jpeg";
@@ -8,10 +5,9 @@ import bakbouka from "../assets/images/bakbouka.jpeg";
 import Karan from "../assets/images/karan.jpeg";
 import tbouridaImage from "../assets/images/tbourida.jpeg";
 
-const OujdaCultureCenterRight = () => {
+export default function Culture() {
   return (
     <div className="culture-center-container">
-      {/* Header */}
       <header className="culture-header">
         <div className="header-content">
           <h1 className="main-title">Cultural Heritage of Oujda</h1>
@@ -22,8 +18,7 @@ const OujdaCultureCenterRight = () => {
         </div>
       </header>
 
-      {/* Food Section */}
-      <section className="culture-section food-section" >
+      <section className="culture-section food-section">
         <div className="section-wrapper">
           <div className="content-left">
             <div className="section-header">
@@ -33,131 +28,79 @@ const OujdaCultureCenterRight = () => {
             </div>
 
             <div className="content-details">
-              <div>
-                <div
-                  style={{ display: "flex", marginBottom: "50px" }}
-                  id="karan"
-                >
+              <div className="food-item" id="karan">
+                <div className="food-item-content">
                   <img
                     src={Karan}
-                    style={{
-                      height: "300px",
-                      
-                      marginRight: "200px",
-                    }}
+                    alt="Karan"
+                    className="food-image"
                   />
-                  <div className="description">
-                    <h5
-                      style={{
-                        borderLeft: "1px solid blue",
-                        fontSize: "30px",
-                        paddingLeft: "7px",
-                      }}
-                    >
+                  <div className="food-text">
+                    <h5 className="food-title">
                       Karan
                     </h5>
-                    <p className="images-description">
-                     Karan is a popular street food from Oujda, in eastern Morocco.
-It’s made mainly from chickpea flour and baked into a soft, thick savory flan.
-People usually eat it in bread like a sandwich, with cumin and sometimes harissa.
-
+                    <p className="food-description">
+                      Karan is a popular street food from Oujda, in eastern Morocco.
+                      It's made mainly from chickpea flour and baked into a soft, thick savory flan.
+                      People usually eat it in bread like a sandwich, with cumin and sometimes harissa.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="category-item">
-                <div
-                  style={{ display: "flex", marginBottom: "50px" }}
-                  id="babouch"
-                >
+              <div className="food-item" id="babouch">
+                <div className="food-item-content">
                   <img
                     src={babouch}
-                    style={{
-                      height: "300px",
-                      
-                      marginRight: "200px",
-                    }}
+                    alt="Babouch"
+                    className="food-image"
                   />
-                  <div className="description">
-                    <h5
-                      style={{
-                        borderLeft: "4px solid blue",
-                        fontSize: "30px",
-                        paddingLeft: "7px",
-                      }}
-                    >
+                  <div className="food-text">
+                    <h5 className="food-title">
                       Babouch
                     </h5>
-                    <p className="images-description">
+                    <p className="food-description">
                       Babbouche (الببوش) in Oujda is a traditional street food made from snails cooked in a hot, spicy herbal broth.
-It’s popular in cold weather, sold by street vendors, and is believed to help digestion and relieve colds.
-
+                      It's popular in cold weather, sold by street vendors, and is believed to help digestion and relieve colds.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="category-item">
-                <div
-                  style={{ display: "flex", marginBottom: "50px" }}
-                  id="bakbouka"
-                >
+              <div className="food-item" id="bakbouka">
+                <div className="food-item-content">
                   <img
                     src={bakbouka}
-                    style={{
-                      height: "300px",
-                      
-                      marginRight: "200px",
-                    }}
+                    alt="Bakbouka"
+                    className="food-image"
                   />
-                  <div className="description">
-                    <h5
-                      style={{
-                        borderLeft: "4px solid blue",
-                        fontSize: "30px",
-                        paddingLeft: "7px",
-                      }}
-                    >
+                  <div className="food-text">
+                    <h5 className="food-title">
                       Bakbouka
                     </h5>
-                    <p className="images-description">
+                    <p className="food-description">
                       Bakbouka Oujdia is a traditional dish from Oujda in eastern Morocco.
-It is made from sheep’s stomach (tripe) stuffed with a tasty mixture and cooked.
-It is usually prepared during Eid and special celebrations.
-
+                      It is made from sheep's stomach (tripe) stuffed with a tasty mixture and cooked.
+                      It is usually prepared during Eid and special celebrations.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="category-item">
-                <div
-                  style={{ display: "flex", marginBottom: "50px" }}
-                  id="berkoukch"
-                >
+              <div className="food-item" id="berkoukch">
+                <div className="food-item-content">
                   <img
                     src={berkoukch}
-                    style={{
-                      height: "300px",
-                
-                      marginRight: "200px",
-                    }}
+                    alt="Berkoukesh"
+                    className="food-image"
                   />
-                  <div className="description">
-                    <h5
-                      style={{
-                        borderLeft: "4px solid blue",
-                        fontSize: "30px",
-                        paddingLeft: "7px",
-                      }}
-                    >
+                  <div className="food-text">
+                    <h5 className="food-title">
                       Berkoukesh
                     </h5>
-                    <p className="images-description">
-                     Berkoukesh (بركوكش) is a traditional Moroccan dish from Oujda and eastern Morocco.
-It’s a warm, hearty meal, often made in cold weather or for family gatherings.
-
+                    <p className="food-description">
+                      Berkoukesh (بركوكش) is a traditional Moroccan dish from Oujda and eastern Morocco.
+                      It's a warm, hearty meal, often made in cold weather or for family gatherings.
                     </p>
                   </div>
                 </div>
@@ -175,8 +118,7 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
         </div>
       </section>
 
-      {/* Clothing Section */}
-      <section className="culture-section clothing-section" >
+      <section className="culture-section clothing-section">
         <div className="section-wrapper reverse">
           <div className="content-left">
             <div className="section-header">
@@ -199,7 +141,7 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
 
                 <div className="grid-item">
                   <div className="item-content">
-                    <h3 >Jellaba</h3>
+                    <h3>Jellaba</h3>
                     <p>
                       Traditional long robe in wool or cotton, featuring subtle
                       decorative elements.
@@ -211,8 +153,7 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
                   <div className="item-content">
                     <h3>el blouza</h3>
                     <p>
-                      Blouza Oujdia is a traditional women’s outfit from Oujda, worn at weddings and special occasions.
-
+                      Blouza Oujdia is a traditional women's outfit from Oujda, worn at weddings and special occasions.
                     </p>
                   </div>
                 </div>
@@ -237,12 +178,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
                 alt="Traditional Moroccan clothing"
                 className="main-image"
               />
-              <div className="image-overlay">
-                <div className="overlay-text">
-                  <h4>Textile Art</h4>
-                  <p>Handwoven with precision</p>
-                </div>
-              </div>
             </div>
             <div className="image-description">
               <p>
@@ -254,7 +189,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
         </div>
       </section>
 
-      {/* Music Section */}
       <section className="culture-section music-section">
         <div className="section-wrapper">
           <div className="content-left">
@@ -318,12 +252,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
                 alt="Traditional Moroccan music"
                 className="main-image"
               />
-              <div className="image-overlay">
-                <div className="overlay-text">
-                  <h4>Musical Heritage</h4>
-                  <p>Rhythms of tradition</p>
-                </div>
-              </div>
             </div>
             <div className="image-description">
               <p>
@@ -335,7 +263,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
         </div>
       </section>
 
-      {/* Tbourida Section */}
       <section className="culture-section tbourida-section">
         <div className="section-wrapper reverse">
           <div className="content-left">
@@ -393,12 +320,6 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
                 alt="Traditional Moroccan equestrian performance"
                 className="main-image"
               />
-              <div className="image-overlay">
-                <div className="overlay-text">
-                  <h4>Equestrian Art</h4>
-                  <p>Centuries-old tradition</p>
-                </div>
-              </div>
             </div>
             <div className="image-description">
               <p>
@@ -412,5 +333,3 @@ It’s a warm, hearty meal, often made in cold weather or for family gatherings.
     </div>
   );
 };
-
-export default OujdaCultureCenterRight;

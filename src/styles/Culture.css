@@ -1,4 +1,3 @@
-/* CSS complet sans cards ni bordures */
 :root{
 --bg-main:#643a03e1, ;
 --primary:#1a1a1a;
@@ -58,8 +57,7 @@ font-size:3.5rem;
 font-weight:700;
 letter-spacing:-0.5px;
 margin-bottom:0.5rem;
-font-family:"Playfair Display",serif;
-text-shadow:0 2px 4px rgb(247, 242, 242);
+font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 }
 .header-subtitle{
 font-size:1.1rem;
@@ -184,7 +182,7 @@ font-size:2.25rem;
 font-weight:700;
 margin:0.5rem 0;
 color:var(--primary);
-font-family:"Playfair Display",serif;
+font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 line-height:1.2;
 }
 .section-subtitle{
@@ -329,6 +327,56 @@ color:var(--muted);
 .genre-tag:hover,.event-tag:hover{
 color:var(--accent);
 }
+.food-item {
+  margin-bottom: 50px;
+}
+.food-item-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.food-image {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.food-text {
+  flex: 1;
+}
+.food-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+  padding-left: 0;
+  border-left: none !important;
+}
+.food-description {
+  margin-top: 35px;
+  width: 600px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 12px;
+  line-height: 1.7;
+  color: #666;
+  font-size: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.description h5 {
+  border-left: none !important;
+}
+.food-description:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.images-description {
+  display: none;
+}
+img{
+    border-radius: 10px;
+}
 @media(max-width:1024px){
 .section-wrapper{
 gap:3rem;
@@ -338,6 +386,14 @@ font-size:2.75rem;
 }
 .food-section .image-container,.clothing-section .image-container,.music-section .image-container,.tbourida-section .image-container{
 height:600px;
+}
+.food-image {
+  height: 250px;
+  width: 350px;
+}
+.food-description {
+  width: 500px;
+  padding: 40px;
 }
 }
 @media(max-width:768px){
@@ -371,6 +427,19 @@ height:400px;
 .image-right{
 order:-1;
 }
+.food-item-content {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.food-image {
+  width: 100%;
+  height: 250px;
+}
+.food-description {
+  width: 100%;
+  padding: 30px;
+  margin-top: 20px;
+}
 }
 @media(max-width:480px){
 .culture-section{
@@ -394,6 +463,12 @@ font-size:1.5rem;
 .food-section .image-container,.clothing-section .image-container,.music-section .image-container,.tbourida-section .image-container{
 height:300px;
 }
+.food-description {
+  padding: 20px;
+}
+.food-title {
+  font-size: 24px;
+}
 }
 @keyframes fadeInUp{
 from{
@@ -412,19 +487,4 @@ animation:fadeInUp 0.6s ease-out forwards;
 .culture-section{
 scroll-margin-top:2rem;
 }
-}
-img{
-    border-radius: 10px;
-}
-.images-description{
-    margin-top: 35px;
-    width: 600px;
-    background-color: white;
-    padding: 50px;
-    border-radius: 12px; 
-}
-.images-description:hover{
-    translate: 0px -8px;
-    transition: .3s all;
-    
 }

@@ -1,5 +1,6 @@
 import logo from "../assets/logo/logo W.svg";
-
+import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -7,10 +8,10 @@ export default function Footer() {
         <div className="footer-info">
           <h2>Contact Us</h2>
           <p>
-            <a href="mailto:">have some questions?</a><br />
+            <a href="mailto:">Have some questions?</a><br />
           </p>
           <p>
-            <a href="#">about us</a>
+            <Link to="/About" >About</Link>    
           </p>
         </div>
         <div className="footer-logo">
