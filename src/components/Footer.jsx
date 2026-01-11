@@ -5,26 +5,14 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-info">
-          <h2>Oujda City</h2>
+          <h2>Contact Us</h2>
           <p>
-            Explore Oujda’s history, culture, and climate. Find places
-            and experiences from local perspective.
+            <a href="mailto:">have some questions?</a><br />
+          </p>
+          <p>
+            <a href="#">about us</a>
           </p>
         </div>
-
-        <div className="footer-contact">
-  <h3>Project Team</h3>
-  <p>
-    This site was created by the Digital Development Full Stack 201 group.
-  </p>
-  <p>
-    Project work for a group competition with other classe.
-  </p>
-  <p>
-    Supervised by English teacher Ms Hassaine Hajar and Mr. Khloufi Abdelkrim.
-  </p>
-</div>
-
         <div className="footer-logo">
           <img src={logo} alt="Oujda logo" />
         </div>

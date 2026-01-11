@@ -56,16 +56,9 @@ export default function History() {
     <>
     <section className="history-bg">
             <h1>OUJDA</h1>
-            <p>Oujda rises near the eastern gate.</p>
-            <p>Stone streets hold quiet memory.</p>
-            <p>Ziri walls guard old paths.</p>
-            <p>Caravans once crossed sand and time.</p>
-            <p>Voices blend Berber and Arab roots.</p>
-            <p>Markets breathe spice and dust.</p>
-            <p>Battles passed. Borders shifted.</p>
-            <p>Oujda stayed firm and awake.</p>
-            <p>Today, trains hum and schools grow.</p>
-            <p>History walks beside your steps.</p>
+            <p>
+              A city at Morocco’s eastern gate — where history, culture, and modern life meet.
+            </p>
         </section>
     <section className="history">
       {data.map((item, index) => (

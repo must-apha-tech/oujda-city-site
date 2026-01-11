@@ -49,11 +49,7 @@
     align-items: center;
   }
 
-  .footer-logo {
-    margin: 20px 0 0 0;
-  }
-
   .footer-logo img {
-    height: 55px;
+    display: none;
   }
 }
