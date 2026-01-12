@@ -26,8 +26,6 @@ const OujdaPresentation = () => {
           </p>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50237.46860578535!2d-1.94867783160741!3d34.684634148594405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7864984106d6ef%3A0x1d86b33244c4650!2sOujda!5e1!3m2!1sen!2sma!4v1768215664535!5m2!1sen!2sma" 
-        width="600"
-        height="450" 
         style={{border:0}}
         allowfullscreen="" 
         loading="lazy" 

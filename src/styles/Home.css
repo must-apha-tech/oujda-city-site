@@ -49,6 +49,9 @@ body {
   inset: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1;
+  border-bottom-left-radius:15px ;
+  border-bottom-right-radius:15px ;
+  height: 75vh;
 }
 
 .banner p {
@@ -185,6 +188,9 @@ body {
   .banner h1 { font-size: 2rem; }
   .banner p { font-size: 0.9rem; }
   .discover h2 { font-size: 1.5rem; }
+  .banner::before {
+    height: 55vh;
+  }
 }
 @media (max-width: 480px) {
   /* Banner */
