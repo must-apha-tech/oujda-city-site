@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/oujda-city-site/static/css/main.0a843616.css",
-    "main.js": "/oujda-city-site/static/js/main.6f2c5f53.js",
+    "main.css": "/oujda-city-site/static/css/main.11f32776.css",
+    "main.js": "/oujda-city-site/static/js/main.8f908dfe.js",
+    "static/media/moroccanDecor.png": "/oujda-city-site/static/media/moroccanDecor.9b76ad2c493804afb7c3.png",
     "static/media/Himage5.jpg": "/oujda-city-site/static/media/Himage5.42041b738b1acf1ba440.jpg",
     "static/media/rain.jpg": "/oujda-city-site/static/media/rain.666208eaaacf9ea2cdcd.jpg",
     "static/media/rbe.jpg": "/oujda-city-site/static/media/rbe.27a1dec0391f6dc2e671.jpg",
@@ -15,6 +16,8 @@
     "static/media/berkoukch.jpeg": "/oujda-city-site/static/media/berkoukch.9a121b610b21ce096503.jpeg",
     "static/media/karan.jpeg": "/oujda-city-site/static/media/karan.4ac7cfe3635a8da767b3.jpeg",
     "static/media/reggada2.jpeg": "/oujda-city-site/static/media/reggada2.774469763a55cbdedbe8.jpeg",
+    "static/media/oujdaWeather.jpg": "/oujda-city-site/static/media/oujdaWeather.3dc25d5ae7325beae243.jpg",
+    "static/media/babsidiabdlwahab.jpg": "/oujda-city-site/static/media/babsidiabdlwahab.5aa828b0432e6696b2dd.jpg",
     "static/media/oujda pic.jpg": "/oujda-city-site/static/media/oujda pic.a6a08d996a806dd108aa.jpg",
     "static/media/tbourida.jpeg": "/oujda-city-site/static/media/tbourida.abf66750099039e05cf1.jpeg",
     "static/media/babouch.jpeg": "/oujda-city-site/static/media/babouch.e2070f2fbdd14c3f449a.jpeg",
@@ -27,11 +30,11 @@
     "static/media/APII.jpg": "/oujda-city-site/static/media/APII.f8caf190a3b1dfd1de4d.jpg",
     "static/media/logo W.svg": "/oujda-city-site/static/media/logo W.15dd44aaaae9baedeba0d3d9e8fb54fb.svg",
     "index.html": "/oujda-city-site/index.html",
-    "main.0a843616.css.map": "/oujda-city-site/static/css/main.0a843616.css.map",
-    "main.6f2c5f53.js.map": "/oujda-city-site/static/js/main.6f2c5f53.js.map"
+    "main.11f32776.css.map": "/oujda-city-site/static/css/main.11f32776.css.map",
+    "main.8f908dfe.js.map": "/oujda-city-site/static/js/main.8f908dfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a843616.css",
-    "static/js/main.6f2c5f53.js"
+    "static/css/main.11f32776.css",
+    "static/js/main.8f908dfe.js"
   ]
 }
