@@ -19,7 +19,7 @@ function About() {
           This site was created by the <strong>Digital Development Full Stack 201 group</strong>.
         </p>
         <p>
-          It represents project work for a group competition with other classes.
+          It represents project work for a group competition with the other class .
         </p>
         <p>
           Supervised by English teacher <strong>Ms. Hassaine Hajar</strong> and <strong>Mr. Khloufi Abdelkrim</strong>.

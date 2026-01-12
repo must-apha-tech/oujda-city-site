@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo/logo W.svg";
 
 export default function Navbar() {
@@ -23,20 +23,24 @@ export default function Navbar() {
     <nav className="black">
       <div className="logo">
         <Link to="/">
-          <img src={logo} alt="logo oujda" />
+          <img src={logo} alt="Oujda logo" />
         </Link>
       </div>
 
-      <button className="menu-btn" onClick={() => setOpen(!open)}>
+      <button 
+        className="menu-btn" 
+        aria-label="Toggle navigation menu" 
+        onClick={() => setOpen(!open)}
+      >
         ☰
       </button>
 
       <div ref={menuRef} className={`menu ${open ? "open" : ""}`}>
-        <Link to="/" onClick={() => setOpen(false)}>Home</Link>
-        <Link to="/history" onClick={() => setOpen(false)}>History</Link>
-        <Link to="/culture" onClick={() => setOpen(false)}>Culture</Link>
-        <Link to="/climate" onClick={() => setOpen(false)}>Climate</Link>
-        <Link to="/About" onClick={() => setOpen(false)}>About</Link>         
+        <NavLink to="/" onClick={() => setOpen(false)} className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink>
+        <NavLink to="/history" onClick={() => setOpen(false)} className={({ isActive }) => (isActive ? "active" : "")}>History</NavLink>
+        <NavLink to="/culture" onClick={() => setOpen(false)} className={({ isActive }) => (isActive ? "active" : "")}>Culture</NavLink>
+        <NavLink to="/climate" onClick={() => setOpen(false)} className={({ isActive }) => (isActive ? "active" : "")}>Climate</NavLink>
+        <NavLink to="/About" onClick={() => setOpen(false)} className={({ isActive }) => (isActive ? "active" : "")}>About</NavLink>
       </div>
     </nav>
   );
